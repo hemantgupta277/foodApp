@@ -7,12 +7,8 @@ export default function Home() {
   return (
     <div>
         <div><Navbar/></div>
-        <div>
-          <Carousal/>
-        </div>
-        <div>
-          <Card/>
-        </div> 
+        <div><Carousal/></div>
+        <div><Card/></div> 
         <div><Footer/></div>
     </div>
   )

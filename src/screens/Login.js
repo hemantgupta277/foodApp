@@ -1,7 +1,13 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 export default function Login() {
   return (
-    <div>Login</div>
+    <div>
+      <div><Navbar/></div>
+      <div>Login</div>
+      <div><Footer/></div>
+    </div>
   )
 }

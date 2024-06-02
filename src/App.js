@@ -18,9 +18,9 @@ function App() {
           <Route exact path="/login" element={<Login/>} />
         </Routes>
       </div>
-      <div className='fs-1'>
+      {/* <div className='fs-1'>
         hello!!
-      </div>
+      </div> */}
     </Router>
   );
 }
